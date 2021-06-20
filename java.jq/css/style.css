@@ -1,0 +1,18 @@
+.header{
+	padding:20px;
+	font-size: 25px;
+	color:white;
+	text-align: center;
+    background-color: green;
+    cursor: pointer;
+
+}
+.text{
+   	padding:40px;
+	font-size: 20px;
+	color:white;
+	text-align: center;
+    background-color: red;
+    display:none;
+    
+}

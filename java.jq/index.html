@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>java/jq</title>
+
+    
+  </head>
+  <body>
+<!--<div class="container">
+
+  <h1>click the message button to hide the message</h1>
+  <button type="button" class="btn btn-danger" id="hide">Hide</button>
+  <button type="button" class="btn btn-success" id="show">show</button>
+  <button type="button" class="btn btn-success" id="toggle">Hide/show</button>
+  <p class="message bg-success p-5">Lorem ipsum dolor, sit amet.</p>
+</div>-->
+<div class="container">
+
+  <h1>click the message button to hide the message</h1>
+  <button type="button" class="btn btn-danger" id="fadein">FadeIn</button>
+  <button type="button" class="btn btn-success" id="fadeout">FadeOut</button>
+  <button type="button" class="btn btn-secondary" id="fadetoggle">FadeToggle</button>
+  <button type="button" class="btn btn-success" id="fadeto">FadeTo</button>
+  <p class="message bg-success p-5">Lorem ipsum dolor, sit amet.</p>
+</div>
+<div class="container mt-5">
+<div class="header">Header</div>
+<div class="text">Lorem ipsum dolor sit amet.
+</div>
+</div>
+
+
+
+
+
+    
+
+
+  
+
+ 
+
+
+
+
+ 
+    <!-- js links-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--fontawesomelinks--> 
+    <script>
+     // Example starter JavaScript for disabling form submissions if there are invalid fields
+     (function () {
+    'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  
+</script>
+<!--fontawesomelinks-->
+</body>
+</html>
